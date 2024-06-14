@@ -12,7 +12,7 @@ CREATE TABLE Categoria (
     id INT PRIMARY KEY,
     nombre VARCHAR(50),
     sexo VARCHAR(50),
-    Cant_max_atletas INT,
+    cant_max_atletas INT,
 )
 
 CREATE TABLE Deporte (
