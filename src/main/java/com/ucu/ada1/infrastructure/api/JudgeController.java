@@ -2,14 +2,12 @@ package com.ucu.ada1.infrastructure.api;
 
 import static java.util.Objects.nonNull;
 
-import com.google.inject.Inject;
 import com.ucu.ada1.application.user.GetCompetitionsByJudgeId;
 import com.ucu.ada1.domain.sport.Competition;
 import java.util.List;
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
